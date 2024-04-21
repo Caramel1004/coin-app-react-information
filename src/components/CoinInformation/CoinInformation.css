@@ -1,0 +1,15 @@
+.container {
+    padding: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    grid-auto-flow: row;
+}
+
+.card {
+    width: 20rem;
+    border: 1px groove #ffffff;
+    border-radius: 0.5rem;
+}
